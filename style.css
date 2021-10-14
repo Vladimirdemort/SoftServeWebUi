@@ -1,0 +1,133 @@
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.opacity {
+  opacity: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --text-color: #181818;
+  --hover-color: #e68f1d;
+  --light-text: rgb(198, 200, 216);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+
+  background-image: linear-gradient(#af9117, #151602, #000);
+}
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  width: 65px;
+  text-align: center;
+  padding: 5px;
+  background-color: #2f4f4f;
+  color: var(--light-text);
+  margin-right: 5px;
+
+  border-radius: 10px;
+}
+
+.nav__item:hover {
+  color: var(--hover-color);
+}
+
+.logo {
+  width: 175px;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 27px;
+
+  background-color: var(--hover-color);
+  border-radius: 20px;
+  height: 30px;
+}
+
+.hero {
+  height: 300px;
+
+  background-image: url("https://www.nzherald.co.nz/resizer/DdWWVZfUEx59ZZwNhEAN7-IeAN4=/1440x810/smart/filters:quality(70)/cloudfront-ap-southeast-2.images.arcpublishing.com/nzme/3IVEMV2UBOHRIXLZ33TP3ZTUNQ.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero__title {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+.text {
+  color: var(--text-color);
+  max-height: 200px;
+  overflow: scroll;
+  background-color: powderblue;
+  padding: 5px 10px 0 10px;
+}
+
+.footer {
+  background-image: linear-gradient(#000, #151602, #af9117);
+}
+.footer__address {
+  display: flex;
+  justify-content: space-between;
+}
+.address {
+  color: var(--light-text);
+  width: 175px;
+  margin-right: 20px;
+}
+
+.footer .logo {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.table {
+  text-align: center;
+  border: solid;
+  border-radius: 5px;
+}
+
+.table__data {
+  border: solid 1px;
+}
